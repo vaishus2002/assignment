@@ -1,0 +1,123 @@
+/*---------------------------------------*/
+/* Font */
+/*---------------------------------------*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+/*---------------------------------------*/
+/* Register Form */
+/*---------------------------------------*/
+body {
+  /*background-color: #809fff;*/
+}
+.signup-form {
+  font-family: "Roboto", sans-serif;
+  width:540px;
+    height: 500px;
+    background-color: #809fff;
+  margin-top: 0px;
+  border-radius: 10px;
+}
+
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+    
+   
+  }
+
+.right {
+  right: 0;
+    /*background-color: #809fff*/
+     
+  
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*---------------------------------------*/
+/* Form Body */
+/*---------------------------------------*/
+.form-body {
+  padding:10px 40px;
+  color:#666;
+}
+
+.form-group{
+  margin-bottom:20px;
+}
+
+.form-body .label-title {
+  color:white;
+  font-size: 17px;
+  font-weight: bold;
+    float: left;
+   
+
+    
+}
+
+.form-body .form-input {
+    font-size: 17px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 34px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    text-align: left;
+    border: 1px solid white;
+    border-radius: 4px;
+    background: white;
+    outline-color: white;
+}
+
+::-webkit-input-placeholder  {
+    border-color: white
+   color:#d9d9d9;
+}
+
+.horizontal-group .left{
+    
+  float:left;
+  width:49%;
+}
+
+.horizontal-group .right{
+  float:right;
+  width:49%;
+}
+
+
+
+.btn {
+   display:inline-block;
+   padding:10px 20px;
+   background-color: blue;
+   font-size:17px;
+   border:none;
+   border-radius:5px;
+   color:ghostwhite;
+   cursor:pointer;
+    float: inherit;
+}
+
+
+
+
